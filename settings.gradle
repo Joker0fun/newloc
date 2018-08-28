@@ -1,0 +1,1 @@
+include ':app', ':loc', ':testmodule', ':newloctaion', ':lxloctest'

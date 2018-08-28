@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lx.newloc.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/chigoo"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/Btn_start"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/Start"
+    />
+
+    <Button
+        android:id="@+id/Btn_Gather"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/Gather"
+    />
+
+    <Button
+        android:id="@+id/Btn_Wifi_Gather"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/WifiGather"
+        />
+
+    <Button
+        android:id="@+id/Btn_Mt"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="MusicTest"
+        />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

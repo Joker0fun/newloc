@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="lx.newloc.SubActivity.LunchActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <Spinner
+            android:id="@+id/spn_LocType"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            >
+        </Spinner>
+
+        <EditText
+            android:id="@+id/edt_input_A"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/Btn_set_A"
+            android:text="@string/Btn_GetA"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/edt_input_n"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/Btn_set_n"
+            android:text="@string/Btn_Getn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/edt_input_C"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/Btn_set_C"
+            android:text="@string/Btn_GetC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/Btn_start"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/Start"
+            />
+        <Spinner
+            android:id="@+id/spn_LocArea"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/spn_LocFloor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/tv_ShowPrecision"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/UpLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+        <!--android:background="#2E8B57"-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/View_Map_Iamge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_moveup"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/up"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:baselineAligned="true"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/btn_moveleft"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/left"
+                    />
+
+                <Button
+                    android:id="@+id/btn_moveright"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/right"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_movedown"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:text="@string/down"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_test"
+                android:text="              "
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btn_Zoom_up"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Zoom_up" />
+
+            <Button
+                android:id="@+id/btn_Zoom_down"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Zoom_down" />
+
+            <Button
+                android:id="@+id/btn_Recovery"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Recovery" />
+
+            <Spinner
+                android:id="@+id/spn_MoveType"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+            </Spinner>
+
+            <ListView
+                android:id="@+id/Show_rlistview"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scrollbarStyle="outsideOverlay"
+                >
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">newloc</string>
+    <string name="Btn_Startloc">开 始</string>
+    <string name="Btn_GetA">设置A</string>
+    <string name="Btn_Getn">设置n</string>
+    <string name="Btn_GetC">设置次数</string>
+    <string name="Start">Now Start</string>
+    <string name="Gather">采 集</string>
+    <string name="WifiGather">Wifi采集</string>
+    <string name="Zoom_up"> 放 大 </string>
+    <string name="Zoom_down"> 缩 小 </string>
+    <string name="Recovery"> 恢 复 </string>
+    <string name="Delete">  删 除  </string>
+    <string name="Upload">  上 传  </string>
+    <string name="left"> 向 左 </string>
+    <string name="right"> 向 右 </string>
+    <string name="up"> 向 上 </string>
+    <string name="down"> 向 下 </string>
+</resources>

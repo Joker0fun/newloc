@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="loctype">
+        <item>三角定位</item>
+        <item>加权质心</item>
+        <item>蓝牙打卡</item>
+        <item>wifi指纹定位</item>
+        <item>wifi加权</item>
+    </string-array>
+
+    <string-array name="movtype">
+        <item>移动地图</item>
+        <item>移动节点</item>
+        <item>精度测试</item>
+    </string-array>
+</resources>
